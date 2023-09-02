@@ -1,0 +1,181 @@
+   
+   
+   
+ <style>
+ * {
+     box-sizing: border-box;
+ }
+ body {
+     font-family: Arial;
+     padding: 10px;
+     background: #f3f3f3;
+ }
+ .header {
+     padding: 30px;
+     text-align: center;
+     background: white;
+ }
+ .header h1 {
+     font-size: 50px;
+ }
+     .topnav {
+         overflow: hidden;
+         background-color: #333;
+     }
+ .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+ }
+ .leftcolumn {
+     float: left;
+     width: 75%;
+ }
+ .rightcolumn {
+     float: right;
+     width: 25%;
+     background-color: #f1f1f1;
+     padding-left: 20px;
+ }
+ .fakeimg {
+     background-color: #aaa;
+     width: 100%;
+     padding: 20px;
+ }
+ .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+ }
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .footer {
+     padding: 20px;
+     text-align: center;
+     background: #ddd;
+     margin-top: 20px;
+ }
+ .leftcolumn, .rightcolumn {
+     width: 100%;
+     padding: 0;
+ }
+ 
+ }
+</style>
+</head>
+<body>
+
+   #hamnav {width: 100%; background-color: #000;}
+
+#hamitems { display: flex;}
+#hamitems a {
+    flex-grow: 1;flex-basis: 0;
+    padding: 10px; color: #fff;
+    text-decoration: none; text-align: center;
+
+}
+
+#hamnav label,#humburger { display: none;} 
+ 
+@media screen and(max-width :768px) {
+
+#hamitems a{
+
+box-sizing: border-box;display: block;
+width: 100%; border- top|: 1px solid #333;
+}
+
+#hamnav a{
+    display:  inline-block; color: #fff;
+    background-color: #a02620;font-style: normal;
+    font-size: 1.2em; padding:10px ;
+     }
+     #hamitems{ display: none;}
+     #hamnav input:checked ~ #hamitems
+{ display: block;}
+
+ }
+ <style>
+ * {
+     box-sizing: border-box;
+ }
+ body {
+     font-family: Arial;
+     padding: 10px;
+     background: #f3f3f3;
+ }
+ .header {
+     padding: 30px;
+     text-align: center;
+     background: white;
+ }
+ .header h1 {
+     font-size: 50px;
+ }
+     .topnav {
+         overflow: hidden;
+         background-color: #333;
+     }
+ .topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+ }
+ .topnav a:hover {
+     background-color: #ddd;
+     color: black;
+ }
+ .leftcolumn {
+     float: left;
+     width: 75%;
+ }
+ .rightcolumn {
+     float: right;
+     width: 25%;
+     background-color: #f1f1f1;
+     padding-left: 20px;
+ }
+ .fakeimg {
+     background-color: #aaa;
+     width: 100%;
+     padding: 20px;
+ }
+ .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+ }
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+ .footer {
+     padding: 20px;
+     text-align: center;
+     background: #ddd;
+     margin-top: 20px;
+ }
+ .leftcolumn, .rightcolumn {
+     width: 100%;
+     padding: 0;
+ }
+ 
+ }
+</style>
+</head>
+<body>
+
